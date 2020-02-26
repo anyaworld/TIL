@@ -1,6 +1,5 @@
 #Today I Learned
 
-
  ## Categories
 * [Android](#Android)
 * [DesignPattern](#DesignPattern)

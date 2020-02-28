@@ -64,6 +64,9 @@ $ git config --system --unset credential.helper
   helper =
 ```
 
+* 위의 helper 를 빈값으로 넣어주었더니 push할때마다 계정 이름과 패스워드를 입력해야 하는 문제가 발생함
+
+-------
 
 ### 도움 받은 사이트:
 * includeIf를 이용한 설정 - https://www.codexpedia.com/devops/includeif-for-creating-different-git-identities/

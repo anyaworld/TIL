@@ -79,8 +79,8 @@ $ git config --system --unset credential.helper
 4.결론-keychain을 쓰자
 * helper=빈값을 지우면 자동으로 osxkeychain으로 지정됨(default인지는 모름)
 * .git/config 파일에 계정정보를 등록 하면 osxkeychain에도 저장이 된다.
-* 패스워드에 < * . 같은 특수문자가 있으면 에러가 났었다. 좀더 쉬운 패스워드를 사용해야 했음. 그렇다고 짧은패스워드는 금물
-
+* osxkeychain에 패스워드가 저장이 되면 .git/config 파일에는 패스워드를 사용하지 않아도 push가 가능하다.(덜 귀찮아진다.)
+* 패스워드에 < * . 같은 특수문자가 있으면 에러가 났다. 특수문자가 없는 좀더 쉬운 패스워드를 사용해야 했음.
 -------
 
 ### 도움 받은 사이트:

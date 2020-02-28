@@ -65,6 +65,15 @@ $ git config --system --unset credential.helper
 ```
 
 * 위의 helper 를 빈값으로 넣어주었더니 push할때마다 계정 이름과 패스워드를 입력해야 하는 문제가 발생함
+ 그래서 로컬 config파일의 remote에 다음과 같이 넣어줌
+```bash
+ [remote "origin"]
+  url=https://username:password@github.com/username/repo.git
+```
+
+* username, password 를 다시 묻지는 않지만 처음에 설정을 해줘야 하는 문제가 있음
+* 패스워드에 < * . 같은 특수문자가 있으면 에러가 났었다. 좀더 쉬운 패스워드를 사용해야 했음.
+* ~/.config에 credential파일에 remote가 추가 되어있는것을 발견함
 
 -------
 

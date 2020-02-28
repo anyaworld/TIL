@@ -15,8 +15,7 @@
  * 하나의 인증 인증 정보를 초기화 하고 다시 설정하자
  * 그러면 다른 하나 계정을 사용할때 어떻게 되는거지?
 
-## 해결
-
+## 시도
 
 1. 우선 global .gitconfig 에 default로 설정할 github 계정 정보를 입력한다.
   ```bash
@@ -71,9 +70,16 @@ $ git config --system --unset credential.helper
   url=https://username:password@github.com/username/repo.git
 ```
 
-* username, password 를 다시 묻지는 않지만 처음에 설정을 해줘야 하는 문제가 있음
-* 패스워드에 < * . 같은 특수문자가 있으면 에러가 났었다. 좀더 쉬운 패스워드를 사용해야 했음.
-* ~/.config에 credential파일에 remote가 추가 되어있는것을 발견함
+* osxkeychain에 git 계정 두개가 추가 되어있는 것을 발견함.음?
+
+3. 생각의 변화
+* 403에러가 났을때 osxkeychain에는 하나만 저장되는 줄 알았다.
+* osxkeychain을 수동으로 지우고, 안쓰고(helper= 빈값)넣고 .git/config 파일에 계정정보를 등록했더니 이것도 귀찮다
+
+4.결론-keychain을 쓰자
+* helper=빈값을 지우면 자동으로 osxkeychain으로 지정됨(default인지는 모름)
+* .git/config 파일에 계정정보를 등록 하면 osxkeychain에도 저장이 된다.
+* 패스워드에 < * . 같은 특수문자가 있으면 에러가 났었다. 좀더 쉬운 패스워드를 사용해야 했음. 그렇다고 짧은패스워드는 금물
 
 -------
 

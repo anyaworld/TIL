@@ -1,4 +1,4 @@
-#두개의 SSH Key 만들어 등록해보자
+# 두개의 SSH Key 만들어 등록해보자
 
 1. SSH key를 생성하자
 * SSH key 파일 생성

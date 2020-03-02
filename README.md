@@ -1,6 +1,6 @@
-#Today I Learned
+# Today I Learned
 
- ## Categories
+## Categories
 * [Android](#Android)
 * [DesignPattern](#DesignPattern)
 * [Git](#Git)
@@ -10,6 +10,7 @@
 * [About Permissions](/Android/about_runtime_permission.md)
 
 ## DesignPattern
+* [Singleton Pattern](/DisignPattern/Singleton.md)
 
 ## Git
 

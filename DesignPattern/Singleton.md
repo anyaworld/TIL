@@ -1,7 +1,5 @@
 # Singleton pattern
 
-## 싱글턴을
-
 ## singleton을 구현하는 방법은 몇가지가 있다.
   *  예시1: 간단한 singleton
 ```bash

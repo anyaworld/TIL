@@ -10,7 +10,7 @@
 * [About Permissions](/Android/about_runtime_permission.md)
 
 ## DesignPattern
-* [Singleton Pattern](/DisignPattern/Singleton.md)
+* [Singleton Pattern](/DesignPattern/Singleton.md)
 
 ## Git
 

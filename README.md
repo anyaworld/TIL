@@ -11,6 +11,7 @@
 
 ## DesignPattern
 * [Singleton Pattern](/DesignPattern/Singleton.md)
+* [Observer Pattern] (/DesignPattern/Observer.md)
 
 ## Git
 

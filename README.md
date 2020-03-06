@@ -11,7 +11,7 @@
 
 ## DesignPattern
 * [Singleton Pattern](/DesignPattern/Singleton.md)
-* [Observer Pattern] (/DesignPattern/Observer.md)
+* [Observer Pattern](/DesignPattern/Observer.md)
 
 ## Git
 
@@ -19,7 +19,7 @@
 
 *[두개의 github계정 로컬에 설정하기](/Git/SettingTwoGithubAccount.md)
 
-*[두개의 github계정에 SSH 설정하기 ](/Git/CreateMutipleSSH.md)
+*[두개의 github계정에 SSH 설정하기](/Git/CreateMutipleSSH.md)
 
 
 ## 제가 정리한 내용이 틀릴 수도 있습니다.

@@ -11,78 +11,88 @@
 2. remote 설정을 다르게 하여 다른 계정B를 remote에 추가했더니 403 에러 발생
 
 ## 원인
- * git Credential이 원인 - 권한문제
- * 하나의 인증 인증 정보를 초기화 하고 다시 설정하자
- * 그러면 다른 하나 계정을 사용할때 어떻게 되는거지?
+
+* git Credential이 원인 - 권한문제
+* 하나의 인증 인증 정보를 초기화 하고 다시 설정하자
+* 그러면 다른 하나 계정을 사용할때 어떻게 되는거지?
 
 ## 시도
 
 1. 우선 global .gitconfig 에 default로 설정할 github 계정 정보를 입력한다.
-  ```bash
-  [user]
-          email = <gighub-email>
-          name = <github-name>
-  ```
 
-   * 특정 디렉토리에서는 user설정을 덮어 써서 적용하도록
-  ```bash
-  [includeIf "gitdir:~/<another_user_local_repository_path>"]
-    path=~/.<other_user_config_file_path>
-  ```
+    ```bash
+    [user]
+              email = <gighub-email>
+              name = <github-name>
+    ```
 
-   *other_user_config_file_path 에는 다음과 같이 덮어쓸 새 user정보를 넣는다.
-   그러면 another_user_local_repository_path에서는 새 user정보로 접근이 가능해진다.
+1. 특정 디렉토리에서는 user설정을 덮어 써서 적용
 
-  ```bash
-  [user]
-          email = <gighub-email>
-          name = <github-name>
-  ```
+    ```bash
+      [includeIf "gitdir:~/<another_user_local_repository_path>"]
+        path=~/.<other_user_config_file_path>
+    ```
 
-2. osxkeychain unset
-```bash
-$ git config --list
-```
- * 위의 명령어를 실행했을 때 다음 권한을 없애기 위해
+1. other_user_config_file_path 에는 다음과 같이 덮어쓸 새 user정보를 넣는다.
+    그러면 another_user_local_repository_path에서는 새 user정보로 접근이 가능해진다.
 
-```bash
-credential.helper=osxkeychain
-```
+    ```bash
+    [user]
+            email = <gighub-email>
+            name = <github-name>
+    ```
 
- * 다음 명령어를 실행하여 unset 시도하였으나 실패
+1. osxkeychain unset
 
-```bash
-$ git config --local --unset credential.helper
-$ git config --global --unset credential.helper
-$ git config --system --unset credential.helper
-```
- * 그래서 ```bash ~/.gitconfig ``` 로 직접 접근하여 마지막에 다음과 같이 빈값을 넣어줌
- (왜 osxkeychain값을 쓸수 없게 못하는지는 아직 알수 없음.)
-```bash
-[credential]
-  helper =
-```
+    ```bash
+      git config --list
+    ```
 
-* 위의 helper 를 빈값으로 넣어주었더니 push할때마다 계정 이름과 패스워드를 입력해야 하는 문제가 발생함
- 그래서 로컬 config파일의 remote에 다음과 같이 넣어줌
-```bash
- [remote "origin"]
-  url=https://username:password@github.com/username/repo.git
-```
+1. 위의 명령어를 실행했을 때 다음 권한을 없애기 위해
 
-* osxkeychain에 git 계정 두개가 추가 되어있는 것을 발견함.음?
+    ```bash
 
-3. 생각의 변화
+    credential.helper=osxkeychain
+
+    ```
+
+1. 다음 명령어를 실행하여 unset 시도하였으나 실패
+
+    ```bash
+      git config --local --unset credential.helper
+      $ git config --global --unset credential.helper
+      $ git config --system --unset credential.helper
+    ```
+
+1. 그래서 ```bash ~/.gitconfig``` 로 직접 접근하여 마지막에 다음과 같이 빈값을 넣어줌(왜 osxkeychain값을 쓸수 없게 못하는지는 아직 알수 없음.)
+
+    ```bash
+    [credential]
+      helper =
+    ```
+
+1. 위의 helper 를 빈값으로 넣어주었더니 push할때마다 계정 이름과 패스워드를 입력해야 하는 문제가 발생함 그래서 로컬 config파일의 remote에 다음과 같이 넣어줌
+
+    ```bash
+      [remote "origin"]
+        url=https://username:password@github.com/username/repo.git
+    ```
+
+1. osxkeychain에 git 계정 두개가 추가 되어있는 것을 발견함.음?
+
+1. 생각의 변화
+
 * 403에러가 났을때 osxkeychain에는 하나만 저장되는 줄 알았다.
-* osxkeychain을 수동으로 지우고, 안쓰고(helper= 빈값)넣고 .git/config 파일에 계정정보를 등록했더니 이것도 귀찮다
+  * osxkeychain을 수동으로 지우고, 안쓰고(helper= 빈값)넣고 .git/config 파일에 계정정보를 등록했더니 이것도 귀찮다
 
-4.결론-keychain을 쓰자
+1. 결론-keychain을 쓰자
+
 * helper=빈값을 지우면 자동으로 osxkeychain으로 지정됨(default인지는 모름)
 * .git/config 파일에 계정정보를 등록 하면 osxkeychain에도 저장이 된다.
 * osxkeychain에 패스워드가 저장이 되면 .git/config 파일에는 패스워드를 사용하지 않아도 push가 가능하다.(덜 귀찮아진다.)
 * 패스워드에 < * . 같은 특수문자가 있으면 에러가 났다. 특수문자가 없는 좀더 쉬운 패스워드를 사용해야 했음.
--------
 
-### 도움 받은 사이트:
-* includeIf를 이용한 설정 - https://www.codexpedia.com/devops/includeif-for-creating-different-git-identities/
-* osxkeychain값 설정- https://stackoverflow.com/questions/13198143/how-do-i-disable-gits-credential-helper-for-a-single-repository/36435803#36435803
+### 도움 받은 사이트
+
+* [includeIf를 이용한 설정](https://www.codexpedia.com/devops/includeif-for-creating-different-git-identities/)
+* [osxkeychain값 설정](https://stackoverflow.com/questions/13198143/how-do-i-disable-gits-credential-helper-for-a-single-repository/36435803#36435803)

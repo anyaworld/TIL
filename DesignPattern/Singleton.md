@@ -4,13 +4,13 @@
 
 * 예시1: 간단한 singleton
 
-```bash
-  public class Elvis{
-      public static final Elvis INSTANCE=new Elvis();
+  ```bash
+    public class Elvis{
+        public static final Elvis INSTANCE=new Elvis();
 
-      private Elvis(){}
-  }
-```
+        private Elvis(){}
+    }
+  ```
 
 * 예시2: public 으로 선언된 정적 팩터리 메서드를 이용한다.
 
@@ -72,19 +72,19 @@
 * enum은 원래 singleton이라 jvm이 알아서 생성해주므로 생성 및 동기화 그리고 초기화 관련 문제를 고민하지 않아도 되게 해준다.
 * 다음과 같이 생성한다.
 
-```bash
-  public enum MySingletonEnum{
-    INSTANCE;
-    public void doSomethingInteresting(){}
-  }
-```
+  ```bash
+    public enum MySingletonEnum{
+      INSTANCE;
+      public void doSomethingInteresting(){}
+    }
+  ```
 
 * 싱글톤 객체 인스턴스를 이렇게 사용한다.
 
-```bash
-  MySingletonEnum mse=MySingletonEnum.INSTANCE;
-  mse.doSomethingInteresting();
-```
+  ```bash
+    MySingletonEnum mse=MySingletonEnum.INSTANCE;
+    mse.doSomethingInteresting();
+  ```
 
 ## 이 Singleton패턴은 어떻게 사용할수 있을까?
 

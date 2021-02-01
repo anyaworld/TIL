@@ -9,7 +9,7 @@
 ## Android
 
 * [About Permissions](/Android/about_runtime_permission.md)
-* [How to release an ap on Google Play Store](/Android/how_to_release_an_ann_on_google_play_store.md)
+* [How to release an ap on Google Play Store](/Android/how_to_release_an_app_on_google_play_store.md)
 
 ## DesignPattern
 

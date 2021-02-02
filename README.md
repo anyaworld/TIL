@@ -26,6 +26,7 @@
 * [두개의 github계정에 SSH 설정하기](/Git/CreateMutipleSSH.md)
 * [Git Author 수정하기](/Git/ModifyAuthor.md)
 * [Git Squash commits](/Git/Squash_commits.md)
+* [Git Clean](/Git/GitClean.md)
 * [게임으로 깃 branching 배우자!](/Git/Learning_Git_Branching.md)
 
 ## IOS

@@ -6,6 +6,7 @@
 * [DesignPattern](#DesignPattern)
 * [Git](#Git)
 * [IOS](#IOS)
+* [Small talk](#SmallTalk)
 * [etc](#etc)
 
 ## Android
@@ -24,10 +25,16 @@
 * [두개의 github계정 로컬에 설정하기](/Git/SettingTwoGithubAccount.md)
 * [두개의 github계정에 SSH 설정하기](/Git/CreateMutipleSSH.md)
 * [Git Author 수정하기](/Git/ModifyAuthor.md)
+* [Git Squash commits](/Git/Squash_commits.md)
+* [게임으로 깃 branching 배우자!](/Git/Learning_Git_Branching.md)
 
 ## IOS
 
 * [아이폰 초기화 하는 방법](/IOS/how_to_initialize_iphone.md)
+
+## SmallTalk
+
+* [엔드리스 풀에서 수영하기](/Small_Talk/Swimming_in_endless_pool.md)
 
 ## etc
 

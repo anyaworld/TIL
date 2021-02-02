@@ -6,6 +6,7 @@
 * [DesignPattern](#DesignPattern)
 * [Git](#Git)
 * [IOS](#IOS)
+* [etc](#etc)
 
 ## Android
 
@@ -27,6 +28,10 @@
 ## IOS
 
 * [아이폰 초기화 하는 방법](/IOS/how_to_initialize_iphone.md)
+
+## etc
+
+* [Github 프로필 사진 등록](/etc/big_head.md)
 
 ## 사실과 다른 내용이 있으면 알려주세요. 확인 후 반영하겠습니다
 

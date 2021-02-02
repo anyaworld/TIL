@@ -5,6 +5,7 @@
 * [Android](#Android)
 * [DesignPattern](#DesignPattern)
 * [Git](#Git)
+* [IOS](#IOS)
 
 ## Android
 
@@ -22,6 +23,10 @@
 * [두개의 github계정 로컬에 설정하기](/Git/SettingTwoGithubAccount.md)
 * [두개의 github계정에 SSH 설정하기](/Git/CreateMutipleSSH.md)
 * [Git Author 수정하기](/Git/ModifyAuthor.md)
+
+## IOS
+
+* [아이폰 초기화 하는 방법](/IOS/how_to_initialize_iphone.md)
 
 ## 사실과 다른 내용이 있으면 알려주세요. 확인 후 반영하겠습니다
 

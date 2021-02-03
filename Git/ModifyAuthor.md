@@ -34,11 +34,11 @@ hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
+
 * 기존에 push된 커밋과 일치 되지 않아서 발생한 에러인데 간단하게 force옵션을 사용하면 해결된다.
 
 ```bash
 git push --force origin master
 ```
 
-
-filter-branch 출처:https://madplay.github.io/post/change-git-author-name
+filter-branch [출처](https://madplay.github.io/post/change-git-author-name)

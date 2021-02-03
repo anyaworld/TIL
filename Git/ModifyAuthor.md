@@ -5,7 +5,7 @@
 * git filter-branch라는 기능이 유용했다.
 
 ```bash
-$ git filter-branch --env-filter '
+git filter-branch --env-filter '
 WRONG_EMAIL="잘못된 이메일 주소"
 NEW_NAME="바꿀 이름"
 NEW_EMAIL="바꿀 이메일 주소"
@@ -37,7 +37,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 * 기존에 push된 커밋과 일치 되지 않아서 발생한 에러인데 간단하게 force옵션을 사용하면 해결된다.
 
 ```bash
-$ git push --force origin master
+git push --force origin master
 ```
 
 

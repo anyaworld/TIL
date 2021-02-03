@@ -60,8 +60,8 @@
 
     ```bash
       git config --local --unset credential.helper
-      $ git config --global --unset credential.helper
-      $ git config --system --unset credential.helper
+      git config --global --unset credential.helper
+      git config --system --unset credential.helper
     ```
 
 1. 그래서 ```bash ~/.gitconfig``` 로 직접 접근하여 마지막에 다음과 같이 빈값을 넣어줌(왜 osxkeychain값을 쓸수 없게 못하는지는 아직 알수 없음.)

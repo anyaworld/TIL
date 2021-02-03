@@ -2,7 +2,7 @@
 
 ## Git: “Cannot 'squash' without a previous commit” error while rebase
 
-### Squash 할때 중간 commit 메시지를 pick해서 생기는 애러
+* Squash 할때 중간 commit 메시지를 pick해서 생기는 애러
 
 ### 해결방법
 
@@ -32,4 +32,4 @@ git rebase -i HEAD~7
 After saving, the interactive shell asked me for the rewording of the chosen commit.
 ```
 
-[출처](https://stackoverflow.com/questions/39595034/git-cannot-squash-without-a-previous-commit-error-while-rebase/42796983#42796983)
+* [출처](https://stackoverflow.com/questions/39595034/git-cannot-squash-without-a-previous-commit-error-while-rebase/42796983#42796983)

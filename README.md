@@ -13,6 +13,7 @@
 
 * [About Permissions](/Android/about_runtime_permission.md)
 * [How to release an ap on Google Play Store](/Android/how_to_release_an_app_on_google_play_store.md)
+* [Sending token to server][/Android/sending_token_to_server.md]
 
 ## DesignPattern
 

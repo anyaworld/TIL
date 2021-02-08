@@ -20,6 +20,10 @@
 * [Singleton Pattern](/DesignPattern/Singleton.md)
 * [Observer Pattern](/DesignPattern/Observer.md)
 
+## Error of Today
+
+* [Cannot import lombok in IntelliJ](/ErrorOfToday/cannot_import_lombok.md)
+
 ## Git
 
 * [Git 명령어 순서 모음](/Git/GitSteps.md)
@@ -36,11 +40,13 @@
 
 ## SmallTalk
 
+* [Review](Small_Talk/review.md)
 * [엔드리스 풀에서 수영하기](/Small_Talk/Swimming_in_endless_pool.md)
 
 ## etc
 
 * [Github 프로필 사진 등록](/etc/big_head.md)
+* [Ngrok](/etc/ngrok.md)
 
 ## 사실과 다른 내용이 있으면 알려주세요. 확인 후 반영하겠습니다
 

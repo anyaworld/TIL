@@ -43,6 +43,7 @@
 
 * [Review](Small_Talk/review.md)
 * [엔드리스 풀에서 수영하기](/Small_Talk/Swimming_in_endless_pool.md)
+* [뒷모습만 봐도 개발자임을 알수 있는 그 가방을 구매했습니다](/Small_Talk/DeveloperBag.md)
 
 ## etc
 

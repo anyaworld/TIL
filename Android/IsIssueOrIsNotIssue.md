@@ -1,6 +1,6 @@
 # Is Issue or Is Not Issue
 
-## 2월 15일에 내내 고민했던것;;;
+## 2월 15일에 내내 고민했던것
 
 * 상황 : Debug 일때만 나타나는 버튼이 있음. BuildConfig.Debug로 생성됨
 

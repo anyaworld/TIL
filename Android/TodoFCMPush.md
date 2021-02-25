@@ -5,3 +5,5 @@
 1. 푸시토큰 일단 서버로 보냄 완료
 
 1. 푸시토큰 언제 보낼지 잘 생각해보자( onNewToken으로 보내긴 한데, jwt토큰을 서버로부터 어떻게 받을지 여부 문제가 있음)
+
+1. AdvancedWebView 를 적용하면 DeadObject Exception 을 내면서 죽는다.(에러 찾는중)

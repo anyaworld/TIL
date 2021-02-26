@@ -39,6 +39,7 @@
 ## IOS
 
 * [아이폰 초기화 하는 방법](/IOS/how_to_initialize_iphone.md)
+* [엔터프라이즈로 배포하기](/IOS/EnterpriseDistribution.md)
 
 ## SmallTalk
 

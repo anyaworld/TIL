@@ -16,6 +16,22 @@
 1. FCM토큰 길이는 backend와 논의 필요
     1. 최근 조사된 것 중에 제일 긴 길이는 317 [출처](https://stackoverflow.com/questions/39959417/what-is-the-maximum-length-of-an-fcm-registration-id-token)
 
+1. 안드로이드 푸시 메시지 수신할때 기기마다 다르게 뜰 때도 있고 안 뜰때도 있다.
+
+    1. 알림 필드가 notification 과 data 두개로 나뉘어져 있음.
+
+    1. 포그라운드, 백그라운드에서 메시지를 다르게 띄움 [출처](https://dongsik93.github.io/til/2021/01/28/til-fcm-push/)
+
+    1. 알림 기본 템플릿이 달라서 생긴 문제가 아님 [출처](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notification)
+
+    ```bash
+    {
+    "title": string,
+    "body": string,
+    "image": string
+    }
+   ```
+
 ## 완료
 
 1. FCM토큰 일단 서버로 보냄(검증 수준)

@@ -1,5 +1,7 @@
 # Today I Learned
 
+***
+
 ## Categories
 
 * [Android](#Android)
@@ -8,6 +10,9 @@
 * [IOS](#IOS)
 * [Small talk](#SmallTalk)
 * [etc](#etc)
+* [Deleted](#Deleted)
+
+***
 
 ## Android
 
@@ -53,10 +58,13 @@
 ## etc
 
 * [Github 프로필 사진 등록](/etc/big_head.md)
-* [Local tunnel](/etc/alternative_ngrok.md)
 * [Terms](/etc/Terms.md)
-* [Ngrok](/etc/ngrok.md)
+* [Local tunnel](/etc/alternative_ngrok.md)
+
+## Deleted
+
+* ~~[Ngrok](/etc/ngrok.md)~~
 
 ## 사실과 다른 내용이 있으면 알려주세요. 확인 후 반영하겠습니다
 
-* 사고는 하루에 하나만 치자!
+* 사고는 하루에 하나만 치자! 8-)

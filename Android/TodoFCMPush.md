@@ -16,6 +16,8 @@
 1. FCM토큰 길이는 backend와 논의 필요
     1. 최근 조사된 것 중에 제일 긴 길이는 317 [출처](https://stackoverflow.com/questions/39959417/what-is-the-maximum-length-of-an-fcm-registration-id-token)
 
+1. jwt토큰이 일정 주기마다 바뀌는데, 이것을 어떻게 처리할까? -_-
+
 ## 완료
 
 1. FCM토큰 일단 서버로 보냄(검증 수준)

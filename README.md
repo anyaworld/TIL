@@ -1,31 +1,29 @@
 # Today I Learned 
 
 > ## Categories
-> * __[Android](#Android)__ :heart:
-> * __[IOS](#IOS)__ :heart:
-> * [Git](#Git)
-> * [Log](#Log)
-> * [Small talk](#SmallTalk)
-> * [DesignPattern](#DesignPattern)
-> * [etc](#etc)
-> * [Deleted](#Deleted)
+> > __[Android](#Android)__ :heart:
+> > __[IOS](#IOS)__ :heart:
+> > [Git](#Git)
+> > [Log](#Log)
+> > [Small talk](#SmallTalk)
+> > [DesignPattern](#DesignPattern)
+> > [etc](#etc)
+> > [Deleted](#Deleted)
 
 
-## Android
+> ## Android
+> * About Permissions [Link](/Android/about_runtime_permission.md)
+> * How to release an ap on Google Play Store [Link](/Android/how_to_release_an_app_on_google_play_store.md)
+> * Sending token to server [Link](/Android/sending_token_to_server.md)
+> * Is Issue or Is Not Issue [Link](/Android/IsIssueOrIsNotIssue.md)
+> * __To do FCM push__ :heart:[Link](/Android/TodoFCMPush.md)
+> * About CustomWebview [Link](/Android/AboutCustomWebView.md)
+> * How To Decompile Apks [Link](/Android/howtoDecompileApps.md)
 
-* About Permissions [Link](/Android/about_runtime_permission.md)
-* How to release an ap on Google Play Store [Link](/Android/how_to_release_an_app_on_google_play_store.md)
-* Sending token to server [Link](/Android/sending_token_to_server.md)
-* Is Issue or Is Not Issue [Link](/Android/IsIssueOrIsNotIssue.md)
-* __To do FCM push__ :heart:[Link](/Android/TodoFCMPush.md)
-* About CustomWebview [Link](/Android/AboutCustomWebView.md)
-* How To Decompile Apks [Link](/Android/howtoDecompileApps.md)
-
-## IOS
-
-* 아이폰 초기화 하는 방법 [Link](/IOS/how_to_initialize_iphone.md)
-* 엔터프라이즈로 배포하기 [Link](/IOS/EnterpriseDistribution.md)
-* about IOS [Link](/IOS/aboutIOS.md)
+> ## IOS
+> * 아이폰 초기화 하는 방법 [Link](/IOS/how_to_initialize_iphone.md)
+> * 엔터프라이즈로 배포하기 [Link](/IOS/EnterpriseDistribution.md)
+> * about IOS [Link](/IOS/aboutIOS.md)
 
 ## Git
 

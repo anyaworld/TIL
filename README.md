@@ -1,14 +1,14 @@
 # Today I Learned 
 
 > ## Categories
-> > __[Android](#Android)__ :heart:
-> > __[IOS](#IOS)__ :heart:
-> > [Git](#Git)
-> > [Log](#Log)
-> > [Small talk](#SmallTalk)
-> > [DesignPattern](#DesignPattern)
-> > [etc](#etc)
-> > [Deleted](#Deleted)
+> > * __[Android](#Android)__ :heart:
+> > * __[IOS](#IOS)__ :heart:
+> > * [Git](#Git)
+> > * [Log](#Log)
+> > * [Small talk](#SmallTalk)
+> > * [DesignPattern](#DesignPattern)
+> > * [etc](#etc)
+> > * [Deleted](#Deleted)
 
 
 > ## Android
@@ -19,7 +19,7 @@
 > * __To do FCM push__ :heart:[Link](/Android/TodoFCMPush.md)
 > * About CustomWebview [Link](/Android/AboutCustomWebView.md)
 > * How To Decompile Apks [Link](/Android/howtoDecompileApps.md)
-
+>
 > ## IOS
 > * 아이폰 초기화 하는 방법 [Link](/IOS/how_to_initialize_iphone.md)
 > * 엔터프라이즈로 배포하기 [Link](/IOS/EnterpriseDistribution.md)

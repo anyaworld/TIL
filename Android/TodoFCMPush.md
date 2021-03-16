@@ -18,6 +18,18 @@
     * UI테스트 라이브러리 search 및 선정할
     * 예제 참조해서 MVP 구조로 웹 뷰 띄움 -> 플젝에 적용은 안함 -> UI 테스트까지 하고나서 하자!
 
+### 3월 16일 한 일
+
+* 앱 심사 결과 거절되서 수정해서 다시 심사 요청 받음
+
+* 고객사에서 앱 심사 거절 메일 보고 심사 문제 해결 요청함 -> 재 심사 처리 했음을 보고
+
+* 테스팅은 좀더 시간 들여서 보자 - 따로 정리 [Link](/Android/TestingApps.md)
+
+## To do
+
+* 심사 결과 메일 오는거 확인하고 추가 요청 사항 정리한것 보낼것 
+
 ## 개발 이슈
 
     1. FCM토큰 언제 보낼지 잘 생각해보자
@@ -52,13 +64,13 @@
         * 푸시 메시지를 보낼때 notification 이 아니라 data에 보내면 해결된다.(if you need them while in background you can use a FCM data message.For data messages the onMessageReceived(message) method is always called, so you can use the message.getData() method and create your custom notification) [출처](https://stackoverflow.com/questions/38504078/firebase-expandable-notification-show-image-when-app-is-in-background)
     1. 알림 기본 템플릿이 달라서 생긴 문제가 아님 [출처](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notification)
 
-    ```bash
-    {
-    "title": string,
-    "body": string,
-    "image": string
-    }
-   ```
+```bash
+{
+"title": string,
+"body": string,
+"image": string
+}
+```
 
 1. A라는 사용자가 2개 이상의 안드로이드 기기에 접속했을때는 두개의 안드로이드에 푸시 메시지를 보내야 한다. 그래서 기기를 식별할수 있는 정보 필요.(SSAID)
     1. 개인정보이므로 약관에 수집가능한지 문의해야 함.-> 답변 왔음. 써도 됨.

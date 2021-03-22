@@ -40,6 +40,13 @@
 
 * 구글플레이 고객센터에 업로드키 재설정 문의 보내기 완료(업로드키 문제가 생기면 그냥 재설정 ㄱㄱ)
 
+### 3월 22일
+
+* 구글 플레이 개발자 페이지에 package name바꾼 앱으로 알파 테스트 심사 올림
+  * google-service 지워서 푸시 메시지 수신 못함.
+* dns바꿔서 메인 페이지가 안들어가진다
+  * 여기 들어가서 따라하고 [랑크](https://superuser.com/questions/203674/how-to-clear-flush-the-dns-cache-in-google-chrome), 크롬브라우저 옵션 들어가서 쿠키, 캐시 모두 지울 것
+
 ## To do
 
 * 심사 결과 메일 오는거 확인하고 추가 요청 사항 정리한것 보낼 것

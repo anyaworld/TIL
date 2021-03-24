@@ -68,3 +68,21 @@ git commit --amend
 ```bash
 git log
 ```
+
+## git 이력확인
+
+```bash
+git reflog
+```
+
+## 모든 파일을 작업 이전의 상태로 되돌리기
+
+```bash
+git reset --hard
+```
+
+## 특정 파일만 되돌리기
+
+```bash
+git checkout -- <파일명>
+```

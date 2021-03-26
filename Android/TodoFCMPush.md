@@ -108,3 +108,7 @@
     ### 정책(완료)
 
     1. 이벤트/프로모션 동의 를 받아야 이벤트/프로모션 푸시 메시지 를 보낼수 있다.
+
+## Webview [does not load webview](https://stackoverflow.com/questions/23308601/android-open-pop-up-window-in-my-webview)
+
+## error of today [App Icon does not show](https://stackoverflow.com/questions/4776933/android-application-icon-not-showing-up)

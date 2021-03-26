@@ -86,3 +86,15 @@ git reset --hard
 ```bash
 git checkout -- <파일명>
 ```
+
+## 검색어로 git log 검색하기
+
+```bash
+git log --oneline --grep <검색어>
+```
+
+## 특정 해시값으로 검색 하기
+
+```bash
+git show <특정 해시 값>
+```

@@ -9,3 +9,5 @@
 ## 스크롤 이슈 해결 가능여부 확인할것[Link](https://medium.com/@nishantpardamwar/using-webview-with-bottomsheetdialog-f38e45cc95a5)
 
 ## 참고함[Link](https://www.programmersought.com/article/41223412699/)
+
+## 이것도 참고[Link](https://blog.mindorks.com/android-bottomsheet-in-kotlin)

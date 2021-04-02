@@ -10,4 +10,10 @@
 
 ## 참고함[Link](https://www.programmersought.com/article/41223412699/)
 
-## 이것도 참고[Link](https://blog.mindorks.com/android-bottomsheet-in-kotlin)
+## 슬라이드에 애니메이션 넣기[Link](https://proandroiddev.com/android-bottom-sheet-behavior-and-animated-button-on-top-of-it-da86a9bfe545)
+
+## [예제](https://mhrpatel12.medium.com/making-most-out-of-android-bottom-sheet-352c04551fb4)
+
+## [예제2](https://codinginflow.com/tutorials/android/modal-bottom-sheet)
+
+## [LockableBottomSheetBehavior NotWorking](https://stackoverflow.com/questions/35794264/disabling-user-dragging-on-bottomsheet)

@@ -21,3 +21,12 @@
 ## github[link](https://github.com/material-components/material-components-android)
 
 ## 로그인 세션 유지시키기[Link](https://dailylonnie0125.tistory.com/11)
+
+## cording in Flow[Link](https://elopage.com/s/codinginflow/mvvmcachingcourse?locale=en)
+
+## Wechat
+
+* [Lnik](https://programmer.group/android-wechat-login-sharing-payment.html)
+* [공식 홈페이지 가이드](https://developers.weixin.qq.com/doc/oplatform/en/Mobile_App/Access_Guide/Android.html)
+* [Examples of flow](https://mts.jk51.com/tushuo/1876558.html)
+* [Link](https://www.codetd.com/ko/article/11797285#WXEntryActivity_84)

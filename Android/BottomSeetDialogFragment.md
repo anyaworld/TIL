@@ -24,9 +24,4 @@
 
 ## cording in Flow[Link](https://elopage.com/s/codinginflow/mvvmcachingcourse?locale=en)
 
-## Wechat
-
-* [Lnik](https://programmer.group/android-wechat-login-sharing-payment.html)
-* [공식 홈페이지 가이드](https://developers.weixin.qq.com/doc/oplatform/en/Mobile_App/Access_Guide/Android.html)
-* [Examples of flow](https://mts.jk51.com/tushuo/1876558.html)
-* [Link](https://www.codetd.com/ko/article/11797285#WXEntryActivity_84)
+### BottomSeetDialogFragment로 해결 안됨 startActivity로 해결함

@@ -10,7 +10,7 @@
 * [DesignPattern](#DesignPattern)
 * [etc](#etc)
 * [Deleted](#Deleted)
->
+
 ## Android
 
 * About Permissions [Link](/Android/about_runtime_permission.md)
@@ -34,6 +34,7 @@
 * Git 명령어 순서 모음 [Link](/Git/GitSteps.md)
 * 두개의 github계정 로컬에 설정하기 [Link](/Git/SettingTwoGithubAccount.md)
 * 두개의 github계정에 SSH 설정하기 [Link](/Git/CreateMutipleSSH.md)
+* Personal access token 생성하기 [Link](/Git/CreatePersonalAccessToken.md)
 * Git Author 수정하기 [Link](/Git/ModifyAuthor.md)
 * Git Squash commits [Link](/Git/Squash_commits.md)
 * Git Clean [Link](/Git/GitClean.md)

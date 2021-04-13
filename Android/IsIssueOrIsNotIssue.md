@@ -1,4 +1,4 @@
-# Is Issue or Is Not Issue
+# Is a Issue or Is Not a Issue
 
 ## 2월 15일에 내내 고민했던것
 

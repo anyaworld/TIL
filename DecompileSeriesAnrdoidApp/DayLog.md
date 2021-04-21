@@ -15,5 +15,5 @@
 1. startActivityForResult deprecated
 
 - alternatives -> [link](https://developer.android.com/jetpack/androidx/releases/activity?hl=ko#declaring_dependencies)
-- https://github.com/Bacass/MyMvvmSample.git 
+- 참고 자료 [Link](https://github.com/Bacass/MyMvvmSample.git)
 - mvvm 필수

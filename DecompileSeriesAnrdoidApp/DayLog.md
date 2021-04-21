@@ -12,3 +12,8 @@
 1. 다운로드 파일 확장자 추가(정규식으로)
 1. coroutine example[Link](https://github.com/andreabresolin/KotlinCoroutinesExamples.git)
 1. file download - base64 조사
+1. startActivityForResult deprecated
+
+- alternatives -> [link](https://developer.android.com/jetpack/androidx/releases/activity?hl=ko#declaring_dependencies)
+- https://github.com/Bacass/MyMvvmSample.git 
+- mvvm 필수

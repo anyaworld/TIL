@@ -17,3 +17,6 @@
 - alternatives -> [link](https://developer.android.com/jetpack/androidx/releases/activity?hl=ko#declaring_dependencies)
 - 참고 자료 [Link](https://github.com/Bacass/MyMvvmSample.git)
 - mvvm 필수
+- 준비된개발자[Blog](https://readystory.tistory.com/176)[Github](https://github.com/KimReady/Blog-Sample-Android/blob/post/mvvm-event-handling/app/src/main/java/com/ready/blog/samples/MainActivity.kt)
+- MyMBBMSample[Link](https://github.com/Bacass/MyMvvmSample.git )
+- tictectoe[Link](https://github.com/ericmaxwell2003/ticTacToe) - git checkout -t "branchname"

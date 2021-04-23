@@ -24,3 +24,6 @@
 - [AdvancedWebview](https://github.com/delight-im/Android-AdvancedWebView/blob/master/Source/library/src/main/java/im/delight/android/webview/AdvancedWebView.java)
 -[html input type File not working in android](https://stackoverflow.com/questions/29045637/html-input-type-file-is-not-working-on-webview-in-android-is-there-any-way-to)
 -[참고](https://coding-food-court.tistory.com/37)
+-[MVVM참고](https://academy.realm.io/kr/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
+- [Callback](https://youngest-programming.tistory.com/517)
+- [gActivityResults Demo](https://github.com/wajahatkarim3/ActivityResultsDemo.git)

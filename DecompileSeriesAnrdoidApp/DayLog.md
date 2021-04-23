@@ -20,3 +20,7 @@
 - 준비된개발자[Blog](https://readystory.tistory.com/176)[Github](https://github.com/KimReady/Blog-Sample-Android/blob/post/mvvm-event-handling/app/src/main/java/com/ready/blog/samples/MainActivity.kt)
 - MyMBBMSample[Link](https://github.com/Bacass/MyMvvmSample.git )
 - tictectoe[Link](https://github.com/ericmaxwell2003/ticTacToe) - git checkout -t "branchname"
+- [Link](https://tourspace.tistory.com/208)
+- [AdvancedWebview](https://github.com/delight-im/Android-AdvancedWebView/blob/master/Source/library/src/main/java/im/delight/android/webview/AdvancedWebView.java)
+-[html input type File not working in android](https://stackoverflow.com/questions/29045637/html-input-type-file-is-not-working-on-webview-in-android-is-there-any-way-to)
+-[참고](https://coding-food-court.tistory.com/37)

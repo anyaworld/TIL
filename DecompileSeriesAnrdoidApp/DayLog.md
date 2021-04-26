@@ -6,13 +6,16 @@
 1. EntranceActivity.EntranceScenarioViewModel 이 모르면 이해하기 어려울것 같다
 1. mvvm
 
-1. 정규식 공부하기
+
 1. mvp, mvvm
 1. coroutine [an Example link](https://tourspace.tistory.com/150?category=797357)
 1. 다운로드 파일 확장자 추가(정규식으로)
 1. coroutine example[Link](https://github.com/andreabresolin/KotlinCoroutinesExamples.git)
 1. file download - base64 조사
 1. startActivityForResult deprecated
+
+
+## Favorates
 
 - alternatives -> [link](https://developer.android.com/jetpack/androidx/releases/activity?hl=ko#declaring_dependencies)
 - 참고 자료 [Link](https://github.com/Bacass/MyMvvmSample.git)
@@ -24,6 +27,9 @@
 - [AdvancedWebview](https://github.com/delight-im/Android-AdvancedWebView/blob/master/Source/library/src/main/java/im/delight/android/webview/AdvancedWebView.java)
 -[html input type File not working in android](https://stackoverflow.com/questions/29045637/html-input-type-file-is-not-working-on-webview-in-android-is-there-any-way-to)
 -[참고](https://coding-food-court.tistory.com/37)
--[MVVM참고](https://academy.realm.io/kr/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
 - [Callback](https://youngest-programming.tistory.com/517)
 - [gActivityResults Demo](https://github.com/wajahatkarim3/ActivityResultsDemo.git)
+-[MVVM참고](https://academy.realm.io/kr/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
+
+
+

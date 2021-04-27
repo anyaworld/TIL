@@ -30,6 +30,3 @@
 - [Callback](https://youngest-programming.tistory.com/517)
 - [gActivityResults Demo](https://github.com/wajahatkarim3/ActivityResultsDemo.git)
 -[MVVM참고](https://academy.realm.io/kr/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
-
-
-

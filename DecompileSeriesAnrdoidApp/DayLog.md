@@ -6,14 +6,16 @@
 1. EntranceActivity.EntranceScenarioViewModel 이 모르면 이해하기 어려울것 같다
 1. mvvm
 
-
 1. mvp, mvvm
-1. coroutine [an Example link](https://tourspace.tistory.com/150?category=797357)
 1. 다운로드 파일 확장자 추가(정규식으로)
 1. coroutine example[Link](https://github.com/andreabresolin/KotlinCoroutinesExamples.git)
 1. file download - base64 조사
 1. startActivityForResult deprecated
 
+## Coroutine
+
+1. coroutine [an Example link](https://tourspace.tistory.com/150?category=797357)
+1. coroutine [infren lecture](https://www.inflearn.com/course/%EC%83%88%EC%B0%A8%EC%9B%90-%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4/lecture/48248?tab=note)
 
 ## Favorates
 

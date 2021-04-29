@@ -1,5 +1,20 @@
 # Day Log
 
+## 2021년 2월 15일
+
+* Is a Issue or Is Not a Issue
+
+* 상황 : Debug 일때만 나타나는 버튼이 있음. BuildConfig.Debug로 생성됨
+
+* 문제점 : 이 버튼이 Manafest.xml 에 Application 태그에 .name 속성에 application 을 상속받은 SubApp 클래스이름을 입력하면 BuildConfig가 자동 생성이 안됨.
+
+* 원인 : BuildConfig 가 자동 생성되지 않음. 왜냐,[Link](https://developer.android.com/studio/releases/gradle-plugin#version_properties_removed_from_buildconfig_class_in_library_projects)
+
+* 대안1. Debug일때만 생성되는 코드를 지운다.
+* 대안2. [Link](https://ichi.pro/ko/android-modyul-eseo-buildconfig-saengseong-jungji-138001015316721)
+
+* 결론 : 대안 1선택, 문제가 되는 코드는 디버깅 편의를 위한 코드로 릴리즈에는 안들어감 굳이 시간을 들여 수정할 필요 없음. 이슈가 아님.
+
 ## 2021년 4월 26일
 
 1. 정규식 공부하기 -> target='_blank' 로 띄우는 부분 url하드코딩 -> 정규식으로 바꿈
@@ -18,6 +33,10 @@
 1. 앱 버전 1.5의 내부테스트로 심사 시작
 1. 인스타그램 계정 연결 답변 도착 -> dev에 반영됨
 1. 고객사에 유심 요청 -> 답변 받기로 함
+
+## 2021년 4월 29일
+
+1. 파일 업로드 제한 테스트 완료 및 JIRA에 등록완료
 
 ## TODO
 

@@ -13,15 +13,15 @@
 
 ## Android
 
-* About Permissions [Link](/Android/about_runtime_permission.md)
-* How to release an ap on Google Play Store [Link](/Android/how_to_release_an_app_on_google_play_store.md)
-* Sending token to server [Link](/Android/sending_token_to_server.md)
-* Is Issue or Is Not Issue [Link](/Android/IsIssueOrIsNotIssue.md)
+* Day Log [Link](Android/DayLog.md)
+* References [Link](Android/References.md)
+* Favorite [Link](Android/Favorite.md)
 * __To do FCM push__ :heart:[Link](/Android/TodoFCMPush.md)
+* About Permissions [Link](/Android/about_runtime_permission.md)
 * About CustomWebview [Link](/Android/AboutCustomWebView.md)
+* Social Login
+    1. WeChat [Link](/Android/SocialLogin.md)
 * How To Decompile Apks [Link](/Android/howtoDecompileApps.md)
-* Social Login - WeChat [Link](/Android/SocialLogin.md)
-* How to check usb connection [Link](/Android/HowToCheckUSBConnection.md)
 
 ## IOS
 

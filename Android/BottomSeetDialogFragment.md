@@ -11,7 +11,9 @@
 1. LockableBottomSheetBehavior NotWorking[Link](https://stackoverflow.com/questions/35794264/disabling-user-dragging-on-bottomsheet)
 1. github[link](https://github.com/material-components/material-components-android)
 1. cording in Flow[Link](https://elopage.com/s/codinginflow/mvvmcachingcourse?locale=en)
+
 ## 로그인 세션 유지시키기[Link](https://dailylonnie0125.tistory.com/11)
 
-## 
+## 결론
+
 1. BottomSeetDialogFragment로 해결 안됨 startActivity로 해결함

@@ -37,3 +37,7 @@
 1. assetlinks.json 파일을 구글에서 확인할 수 있도록 Rebots.txt 파일로 설정해야 한다.
     * 참고[Link](https://developer.android.com/training/app-links/verify-site-associations#publish-json)
     * 참고[Link](https://developer.android.com/training/app-links/verify-site-associations?hl=ko)
+
+## etc
+
+* 로그인 세션 유지시키기[Link](https://dailylonnie0125.tistory.com/11)

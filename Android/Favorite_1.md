@@ -1,4 +1,4 @@
-# Favorite(2021-04-28 정리)
+# Favorite (2021-04-28 정리)
 
 ## Navigation
 
@@ -7,7 +7,7 @@
 1. Github Coroutine Example [Link](https://devlopsquare.tistory.com/11)
 1. Cording with mitch - Network Timeouts with Kotlin Coroutines [Link](https://www.youtube.com/watch?v=cu0_fHFQGbM&list=PLgCYzUzKIBE_PFBRHFB_aL5stMQg3smhL&index=2)
 
-## coroutine
+## Coroutine
 
 1. Infearn 새차원 코루틴 [Link](https://www.inflearn.com/course/%EC%83%88%EC%B0%A8%EC%9B%90-%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4#)
 1. CordingWith Mitch - NetworkTimeout Coroutine [Link](https://www.youtube.com/watch?v=cu0_fHFQGbM&list=PLgCYzUzKIBE_PFBRHFB_aL5stMQg3smhL&index=2)

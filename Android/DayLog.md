@@ -37,6 +37,7 @@
 ## 2021년 4월 29일
 
 1. 파일 업로드 제한 테스트 완료 및 JIRA에 등록완료
+1. Navivation Example-Step10 까지 완료 [Link](https://developer.android.com/codelabs/kotlin-android-training-add-navigation/index.html#9)
 
 ## TODO
 

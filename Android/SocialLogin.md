@@ -7,10 +7,11 @@
 * [공식 홈페이지 가이드](https://developers.weixin.qq.com/doc/oplatform/en/Mobile_App/Access_Guide/Android.html)
 * [Lnik](https://programmer.group/android-wechat-login-sharing-payment.html)
 * [Link](https://www.codetd.com/ko/article/11797285#WXEntryActivity_84)
+* [Link](https://medium.com/@joongwon/wechat-login-android-%EC%97%B0%EB%8F%99-17d5c4f27614)
 
 ### App ID 발급 받기 위해 내가 한거
 
-1. https://open.weixin.qq.com/ 에서 개발자로 로그인
+1. <https://open.weixin.qq.com/> 에서 개발자로 로그인
 1. android app 정보 입력
 1. 앱 흐름도 작성하여 입력 : 기획자분께 참고할 자료 조사해서 전달함.
     * App ID를 발급 받기 위한 절차중 앱 흐름도를 입력해야 함.(귀찮다)

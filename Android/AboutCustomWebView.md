@@ -35,5 +35,5 @@
 1. webview에서 url을 띄우기 위해
 1. <https://exmple.com/.well-known/assetlinks.json> 경로에 assetlinks.json 파일을 추가해야 하고
 1. assetlinks.json 파일을 구글에서 확인할 수 있도록 Rebots.txt 파일로 설정해야 한다.
-참고[Link1](https://developer.android.com/training/app-links/verify-site-associations#publish-json)
-참고Link2](https://developer.android.com/training/app-links/verify-site-associations?hl=ko)
+    * 참고[Link](https://developer.android.com/training/app-links/verify-site-associations#publish-json)
+    * 참고[Link](https://developer.android.com/training/app-links/verify-site-associations?hl=ko)

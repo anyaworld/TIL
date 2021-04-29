@@ -10,7 +10,7 @@
 
 1. 앱 설치하고 처음 실행할 때 푸시 수신 동의를 받아야 함.(flow는 추후 정리 예정)
 
-### 서버도 그냥 내가 만들자 :expressionless:
+### 서버도 그냥 내가 만들자
 
 ### 3월 15일 한 일
 
@@ -88,7 +88,7 @@
         * 푸시 메시지를 보낼때 notification 이 아니라 data에 보내면 해결된다.(if you need them while in background you can use a FCM data message.For data messages the onMessageReceived(message) method is always called, so you can use the message.getData() method and create your custom notification) [출처](https://stackoverflow.com/questions/38504078/firebase-expandable-notification-show-image-when-app-is-in-background)
     1. 알림 기본 템플릿이 달라서 생긴 문제가 아님 [출처](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notification)
 
-        ```
+        ```json
             {
             "title": string,
             "body": string,

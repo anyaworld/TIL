@@ -1,4 +1,4 @@
-# Today I Learned 
+# Today I Learned
 
 ## Categories
 
@@ -15,13 +15,13 @@
 
 * Day Log [Link](Android/DayLog.md)
 * References [Link](Android/References.md)
-* Favorite [Link](Android/Favorite.md)
+* Favorites
+    1. Favorite 1[Link](Android/Favorite_1.md)
+    1. Favorite 2[Link](Android/Favorite_2.md)
 * __To do FCM push__ :heart:[Link](/Android/TodoFCMPush.md)
-* About Permissions [Link](/Android/about_runtime_permission.md)
 * About CustomWebview [Link](/Android/AboutCustomWebView.md)
 * Social Login
     1. WeChat [Link](/Android/SocialLogin.md)
-* How To Decompile Apks [Link](/Android/howtoDecompileApps.md)
 
 ## IOS
 

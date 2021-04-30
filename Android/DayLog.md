@@ -39,6 +39,11 @@
 1. 파일 업로드 제한 테스트 완료 및 JIRA에 등록완료
 1. Navivation Example-Step10 까지 완료 [Link](https://developer.android.com/codelabs/kotlin-android-training-add-navigation/index.html#9)
 
+## 2022년 4월 30일
+
+1. 심카드 요청 -> 다음주 월요일 퀵으로 도착 예정
+1. Full Screen Error Debugging 중
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link]](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

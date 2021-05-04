@@ -39,11 +39,24 @@
 1. 파일 업로드 제한 테스트 완료 및 JIRA에 등록완료
 1. Navivation Example-Step10 까지 완료 [Link](https://developer.android.com/codelabs/kotlin-android-training-add-navigation/index.html#9)
 
-## 2022년 4월 30일
+## 2021년 4월 30일
 
 1. 심카드 요청 -> 다음주 월요일 퀵으로 도착 예정
 1. Full Screen Error Debugging 중
 
+## 2021년 5월 3일
+
+1. 심사 결과 거절됨 -> 설정 지우고, 심사 다시 시작
+1. FileUpLoad 보는 중
+
+## 2021년 5월 4일
+
+1. 심사 통과됨
+1. 테스트 결과 정리 > JIRA에 등록
+    1. 찾아낸 버그는 버그로 등록
+1. WebView에 전달 할수 있을까..-_-
+1. 어린이날 이것 볼 것[Link](https://github.com/rohitpsoman/Android-Kotlin-MVVM-Navigation-Room-Coroutines-Databinding.git)
+
 ## TODO
 
-1. 도서구매 취소시 window.close처리 [Link]](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)
+1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

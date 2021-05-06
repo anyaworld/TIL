@@ -73,3 +73,9 @@
     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
     startActivity(intent);
     ```
+
+1. 푸시 메시지 수신받을 때 필요한 것들
+    * 아이콘 디자인 필요 (현재는 쓰레기통아이콘 이미지)
+    * 푸시 할때 넣은 이미지 크기 Spec 필요( 이미지파일 확장자(png, jpg), 이미지 url(축약해서), 안드로이드에서 기기마다 깨지지 않을 이미지 크기(px))
+    * 푸시 알림 채널 설정,(api > 27?이상에서 채널 설정 필수)
+    * 방해 금지 모드일때 알림 중요도 순위 설정

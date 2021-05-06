@@ -60,7 +60,8 @@
 ## 2021년 5월 6일
 
 1. 5월 4일 5.4 [link](https://github.com/rohitpsoman/Android-Kotlin-MVVM-Navigation-Room-Coroutines-Databinding.git) 안봤다 ㅋㅋㅋ
-1. 정리중
+1. WeChat 쓰는 앱 decompile해서 보는건 시간 낭비였다.
+1. 다시 봐야지 모-_-
 
 ## TODO
 

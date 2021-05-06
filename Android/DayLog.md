@@ -57,6 +57,19 @@
 1. WebView에 전달 할수 있을까..-_-
 1. 어린이날 이것 볼 것[Link](https://github.com/rohitpsoman/Android-Kotlin-MVVM-Navigation-Room-Coroutines-Databinding.git)
 
+## 2021년 5월 6일
+
+1. 5월 4일 5.4 [link](https://github.com/rohitpsoman/Android-Kotlin-MVVM-Navigation-Room-Coroutines-Databinding.git) 안봤다 ㅋㅋㅋ
+1. 정리중
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)
+
+1. Android 플레이스토어에서 내 앱으로 이동.
+
+    ```java
+    String uri = "market://details?id=" +getPackageName();
+    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+    startActivity(intent);
+    ```

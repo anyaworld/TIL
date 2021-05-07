@@ -61,7 +61,13 @@
 
 1. 5월 4일 5.4 [link](https://github.com/rohitpsoman/Android-Kotlin-MVVM-Navigation-Room-Coroutines-Databinding.git) 안봤다 ㅋㅋㅋ
 1. WeChat 쓰는 앱 decompile해서 보는건 시간 낭비였다.
-1. 다시 봐야지 모-_-
+1. 다시 Wechat봐야지 모-_-
+
+## 2021년 5월 7일
+
+1. 고객사 문의 사항 : 테스트용 위챗 아이디를 심카드 번호로 가입해도 되는지 문의 >> 굳이 거기까지 안해도 됨
+1. 고객사에서 개발자 계정 접근하려다가 로그인된 안드로이드에서 인증 못받아서 연락왔었음.
+1. 위챗 로그인은 로그인 시도 너무 많이 해서 block됨. 내일 다시 시도해봐야지 실마리는 찾은것 같음.
 
 ## TODO
 

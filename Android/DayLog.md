@@ -69,6 +69,10 @@
 1. 고객사에서 개발자 계정 접근하려다가 로그인된 안드로이드에서 인증 못받아서 연락왔었음.
 1. 위챗 로그인은 로그인 시도 너무 많이 해서 block됨. 내일 다시 시도해봐야지 실마리는 찾은것 같음.
 
+## 2021년 5월 10일
+
+1.  Native >> JS 호출이 가능함. webview.evaluateJavascript[Link](https://g-y-e-o-m.tistory.com/28)
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

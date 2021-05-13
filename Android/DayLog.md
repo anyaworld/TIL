@@ -71,7 +71,30 @@
 
 ## 2021년 5월 10일
 
-1.  Native >> JS 호출이 가능함. webview.evaluateJavascript[Link](https://g-y-e-o-m.tistory.com/28)
+1. Native >> JS 호출이 가능함. webview.evaluateJavascript[Link](https://g-y-e-o-m.tistory.com/28)
+
+## 2021년 5월 13일
+
+1. MainActivity의 onResume 이 두번 호출되는 문제 해결
+    1. onPause 가 호출되었기 때문에 onResume이 두번 호출됨.
+    1. onPause는 MainActivity에서 권한이 있는지 확인했기 때문에 onPause가 호출됨. (이미 권한을 가지고 있어도 권한이 가지고 있는지 체크하면 onPause 호출됨)
+    1. 앱의 권한을 체크하는 프로세스는 SplashActivity에서 처리하도록 해결함.
+    1. 전체적으로 앱을 실행하는 순서는 SplashActivity -> MainActivity 순으로 실행됨
+
+1. TODO
+
+    기존의 activity순서는 MainActivity -> WXEntryActivity(위챗 로그인) -> WebviewActivity 순으로 이루어졌습니다.
+    우선, 물리 backbutton을 여러 activity사이에서 제어하기 힘들다고 판단하여 
+
+    1. WXEntryActivity 에서 다시 MainActivity의 webview에서 결과를 받을 수 있도록 하였습니다.
+
+        WXEntryActivity에서 MainActivity를 startActiviy를 시킬때, onResume이 두번 호출 되는 문제가 있었는데
+        이것은 MainActivity에서 권한 체크를 하는 과정에서 이미 권한을 획득하였다 하더라도 권한이 있는지 체크하면 onPause가 호출되어 onResume이 두번 호출되는 문제였습니다.
+        권한을 체크하는 프로세스를 SplashActivity를 생성하여 여기서 체크하도록 하여 해결 하였습니다.
+    2. WebView.loadData로 임시의 html에서 로그인 정보를 백엔드로 보내는데, 이것도 backbutton 문제가 있었습니다.
+
+    이 백버튼 문제는 webview.post(runnable { }) 로 새로운 쓰레드를 만들어 return받은 url을 webviw.loadURL로 처리 완료하였습니다.
+    결과적으로 백 버튼 문제를 이 문제를 해결 하기 위하여 권한을 체크하는 Splash Activity가 생성되었습니다. 
 
 ## TODO
 

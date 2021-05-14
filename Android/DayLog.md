@@ -96,6 +96,14 @@
     이 백버튼 문제는 webview.post(runnable { }) 로 새로운 쓰레드를 만들어 return받은 url을 webviw.loadURL로 처리 완료하였습니다.
     결과적으로 백 버튼 문제를 이 문제를 해결 하기 위하여 권한을 체크하는 Splash Activity가 생성되었습니다. 
 
+## 2021년 5월 14일
+
+    1. 결과 받아오는 동안 화면 하얀것 원인 알아보고 대응방안 찾을것
+    1. [Link](https://thdev.tech/androiddev/2020/07/13/Android-Fragment-ViewModel-Example/)
+    1. [Link](https://medium.com/@joongwon/android-aac%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-mvvm-%ED%8C%A8%ED%84%B4-e24a685fc25d)
+    1. [Link](https://github.com/AgustaRC/MVVMArchitecture)
+    1. [Link](https://stackoverflow.com/questions/29666844/onshowfilechooser-from-android-webview-works-only-once)
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

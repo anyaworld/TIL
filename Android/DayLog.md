@@ -98,7 +98,7 @@
 
 ## 2021년 5월 14일
 
-    1. 결과 받아오는 동안 화면 하얀것 원인 알아보고 대응방안 찾을것
+    1. 결과 받아오는 동안 화면 하얀것 원인 알아보고 대응방안 찾을것(네트워크가 느려도 로딩 중이라고 사용자가 알아야 함)
     1. [Link](https://thdev.tech/androiddev/2020/07/13/Android-Fragment-ViewModel-Example/)
     1. [Link](https://medium.com/@joongwon/android-aac%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-mvvm-%ED%8C%A8%ED%84%B4-e24a685fc25d)
     1. [Link](https://github.com/AgustaRC/MVVMArchitecture)

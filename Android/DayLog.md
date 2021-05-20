@@ -84,7 +84,7 @@
 1. TODO
 
     기존의 activity순서는 MainActivity -> WXEntryActivity(위챗 로그인) -> WebviewActivity 순으로 이루어졌습니다.
-    우선, 물리 backbutton을 여러 activity사이에서 제어하기 힘들다고 판단하여 
+    우선, 물리 backbutton을 여러 activity사이에서 제어하기 힘들다고 판단하여
 
     1. WXEntryActivity 에서 다시 MainActivity의 webview에서 결과를 받을 수 있도록 하였습니다.
 
@@ -94,11 +94,11 @@
     2. WebView.loadData로 임시의 html에서 로그인 정보를 백엔드로 보내는데, 이것도 backbutton 문제가 있었습니다.
 
     이 백버튼 문제는 webview.post(runnable { }) 로 새로운 쓰레드를 만들어 return받은 url을 webviw.loadURL로 처리 완료하였습니다.
-    결과적으로 백 버튼 문제를 이 문제를 해결 하기 위하여 권한을 체크하는 Splash Activity가 생성되었습니다. 
+    결과적으로 백 버튼 문제를 이 문제를 해결 하기 위하여 권한을 체크하는 Splash Activity가 생성되었습니다.
 
 ## 2021년 5월 14일
 
-    1. 결과 받아오는 동안 화면 하얀것 원인 알아보고 대응방안 찾을것(네트워크가 느려도 로딩 중이라고 사용자가 알아야 함)
+1. 결과 받아오는 동안 화면 하얀것 원인 알아보고 대응방안 찾을것(네트워크가 느려도 로딩 중이라고 사용자가 알아야 함)
     1. [Link](https://thdev.tech/androiddev/2020/07/13/Android-Fragment-ViewModel-Example/)
     1. [Link](https://medium.com/@joongwon/android-aac%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-mvvm-%ED%8C%A8%ED%84%B4-e24a685fc25d)
     1. [Link](https://github.com/AgustaRC/MVVMArchitecture)
@@ -115,8 +115,19 @@
 ## 2021년 5월 18일
 
 1. 위챗 오픈api 개발자 사이트에 로그인해서 릴리즈로 서명된 키로 등록함.
-    1. 바로 적용 안되고 1시간 반정도 기다렷는데도 안되서 위챗 로그아웃하고 시도하니까 됨!
-    1. 고객사에 위챗 로그인 테스트 요청 메일 보냄.
+1. 바로 적용 안되고 1시간 반정도 기다렷는데도 안되서 위챗 로그아웃하고 시도하니까 됨!
+1. 고객사에 위챗 로그인 테스트 요청 메일 보냄.
+1. 고객사에서 앱이 정상동작한 것을 동영상으로 캡처하여 메일로 보내서 확인 완료.
+1. 동시에 고객사에서 로그인을 할 때 약관 동의를 하라는 페이지가 나와서 정상 동작인지 문의가 왔었슴
+1. 오늘 테스트 서버 디비의 데이터가 삭제되었다가 운영데이터 베이스의 값이 업데이트 되면서 동작한 결과라고 답변함.
+
+## 2021년 5월 20일
+
+1. 불필요한 코드 정리
+1. 돌아가는 동글뱅이가 connectionError일때 에도 계속 돌아감 - onPageFinished 일 때도 동글뱅이를 없애야 함.
+1. setBackground를 0으로 주었더니, error페이지에서도 0으로 뜸. > error처리할때 background 를 하얗게 처리해야 한다.
+1. Progressbar랑 webview를 fragment로 이동해야 하나?
+1. 다운로드관련된 디비 정보가 리셋되면서 안드로이드에서도 테스트 다시 해야함!
 
 ## TODO
 

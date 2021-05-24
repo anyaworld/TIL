@@ -1,5 +1,7 @@
 # about IOS
 
+## 고객사 사명 변경
+
 1. 비밀 키 잃어버리면 [Link](https://help.apple.com/xcode/mac/current/#/devd1432da9a)
 
 1. All sizes for IOS app icon [Link](https://appiconmaker.co/)
@@ -8,5 +10,7 @@
 
 1. IOS계정 및 인증서 갱신 [Link](https://jinnify.tistory.com/65)
 
-1. 멤버십 계정 갱신 안하면, 바로 앱스토어에서 검색 안됨, 다운로드 불가능해지고, 앱 사용 불가능[Link](https://developer.apple.com/kr/support/renewal/)
+1. 멤버십 계정 갱신 안하면, 바로 앱스토어에서 검색 안됨, 다운로드 불가능해지고, 앱 사용 불가능 [Link](https://developer.apple.com/kr/support/renewal/)
     1. 결론  : 제때 갱신하자
+
+1. 301 redirect, 302 redirect 차이 [Link](https://nsinc.tistory.com/168)

@@ -129,6 +129,18 @@
 1. Progressbar랑 webview를 fragment로 이동해야 하나?
 1. 다운로드관련된 디비 정보가 리셋되면서 안드로이드에서도 테스트 다시 해야함!
 
+## 2021년 5월 24일
+
+1. about Content-Desposion 의 값이 ''filename="filename.jpg" >> 이렇게 와서 프론트에 정상 동작 확인 요청 함
+    1. 참고 [Link](https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Content-Disposition)
+
+1. 어쩐지 webview의 downloadListener에 contentDisposition, mimeType 애 반 문자열 오더라ㅜㅜ
+
+## 2021년 5월 25일
+
+1. sample files, (pdf, doc, docx, etc...) [From](https://filesamples.com/categories/image)
+1. Webview에서 주는 권한 확인 -> 권한 다시 작업 필요
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

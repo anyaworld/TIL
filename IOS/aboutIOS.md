@@ -14,3 +14,7 @@
     1. 결론  : 제때 갱신하자
 
 1. 301 redirect, 302 redirect 차이 [Link](https://nsinc.tistory.com/168)
+    1. 참고1 [Link](https://gist.github.com/novemberfiveco-gists/798e3cbb80b0d1a9f75d6ddfd0f87071)
+    1. 참고2 [Link](https://gist.github.com/novemberfiveco-gists/798e3cbb80b0d1a9f75d6ddfd0f87071)
+    1. 참고3 [Link](https://github.com/luowenxing/PWKWebView/blob/master/PWKWebView.swift)
+    1. 참고4 [Link](https://stackoverflow.com/questions/44576468/when-redirect-with-code-302-wkwebview-cannot-set-cookie)

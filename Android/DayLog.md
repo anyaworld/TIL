@@ -141,6 +141,16 @@
 1. sample files, (pdf, doc, docx, etc...) [From](https://filesamples.com/categories/image)
 1. Webview에서 주는 권한 확인 -> 권한 다시 작업 필요
 
+## 2021년 5월 26일
+
+1. 안드로이드 인앱 구독 업데이트 정리
+    1. 업데이트 내용
+       * queryPurchase is deprecated.[Link](https://developer.android.com/reference/com/android/billingclient/api/BillingClient#queryPurchases(java.lang.String)). Use queryPurchaseAsync [Link](https://developer.android.com/reference/com/android/billingclient/api/BillingClient#queryPurchasesAsync(java.lang.String,%20com.android.billingclient.api.PurchasesResponseListener))
+       * backend api
+            * Acknowledge[Link](https://developers.google.com/android-publisher/api-ref/rest/v3/purchases.subscriptions/acknowledge)
+       * Billing [Link](https://developer.android.com/google/play/billing/integrate)
+
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

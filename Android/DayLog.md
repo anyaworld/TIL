@@ -166,9 +166,14 @@
 
 ## 2021년 6월 1일
 
-1. 고객사 도메인 변경 일단 완료(새 url에 인증서 이슈 있음)
+1. 고객사 도메인 변경건은 완료가 어려움(새 url에 인증서 이슈 있음)
+    1. 아직 새 그룹사 이름이 정해지지 않음
+    1. 엔터프라이즈 결제는 고객사에서 진행 중이라고 연락 받음.
 1. 오늘 오후 2시에 줌으로 고객사 미팅 진행
     1. 고객사 수정 요구사항 있었고 전달 >> 검토 필요
+1. 비례배분 모드 [Link](https://www.debugcn.com/ko/article/6255646.html)
+1. 구글 스토어 크레딧 [Link](https://support.google.com/store/answer/7549796?hl=ko&ref_topic=3245921)
+1. 프로모션 코드 [Link](https://support.google.com/googleplay/android-developer/answer/6321495?hl=ko)
 
 ## TODO
 

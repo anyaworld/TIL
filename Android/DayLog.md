@@ -180,6 +180,10 @@
 1. 구글 개발자 프로젝트와 와 구글 developer api가 연결되어 있지 않아서 billingclient가 제대로 동작을 안함.
     1. 모든앱>설정>api액세스> 프로젝트 연결해제해서 기존 플젝 해제하고 내가 만든 플젝으로 연결 > 해결!!
 
+## 2021년 6월 4일
+
+1. 인앱결제 정책(업그레이드, 다운그레이드) 정리 중
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

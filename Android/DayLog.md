@@ -192,6 +192,18 @@
 
 1. 머지 컨플릭트 해결 중 - 브랜치 전략이 잘못되었음...
 
+## 2021년 6월 16일
+
+1. 기존에 구현된 billing 3.0.1 tagging 하기
+    1. git tag <tag_name>
+    1. git push origin <tag_name>
+1. billing 3.0.1 -> billing 4.0.0 으로 바꿨을 때 바뀐점들
+    1. BillingClient.queryPurchases() >> BillingClient.queryPurchasesAsync()
+    1. Purchase.sku >> deleted
+1. To do list
+    1. BillingClient.getConnectionState() >> to be added
+    1. 다운그레이드시 알림?? 뭐지??
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

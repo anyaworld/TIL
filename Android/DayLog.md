@@ -200,6 +200,7 @@
 1. billing 3.0.1 -> billing 4.0.0 으로 바꿨을 때 바뀐점들
     1. BillingClient.queryPurchases() >> BillingClient.queryPurchasesAsync()
     1. Purchase.sku >> deleted
+    1. BillingClientStateListener >> added
 1. To do list
     1. BillingClient.getConnectionState() >> to be added
     1. 다운그레이드시 알림?? 뭐지??

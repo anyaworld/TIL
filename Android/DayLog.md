@@ -219,6 +219,8 @@
         1. {} 괄호를 하는 이유는 param이 널일수도 있어서!
 1. 서버에서 언어가 en으로 설정된 마스터토픽 계정이, 한국 구글 플레이 계정으로 로그인했을때 exception으로 에러 고침
 1. Json변환 문제 있었음.
+    1. response.body().toString() (x), , response.body().string() (OK)
+    1. response api를 잘못 이해하는 문제가 있었음. response.message 의 값이 빈값인 문제를 찾아여야 하고 원래 서버로부터 body의 json으로 받기로 약속했으니 response.message는 로그로 값을 확인할 필요 없었음.
 
 ## TODO
 

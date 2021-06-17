@@ -197,13 +197,28 @@
 1. 기존에 구현된 billing 3.0.1 tagging 하기
     1. git tag <tag_name>
     1. git push origin <tag_name>
-1. billing 3.0.1 -> billing 4.0.0 으로 바꿨을 때 바뀐점들
+1. billing 3.0.1 -> billing 4.0.0 으로 바꿨을 때 바뀐점들 1
     1. BillingClient.queryPurchases() >> BillingClient.queryPurchasesAsync()
     1. Purchase.sku >> deleted
     1. BillingClientStateListener >> added
 1. To do list
     1. BillingClient.getConnectionState() >> to be added
     1. 다운그레이드시 알림?? 뭐지??
+
+## 2021년 6월 17일
+
+1. billing 3.0.1 -> billing 4.0.0 으로 바꿨을 때 바뀐점들 2
+    1. 업그레이드 다운그레이드 시
+        1. BillingFlowParams.Builder.setSubscriptionUpdateParams() 사용
+        1. oldsku 는 필요없음.oldtoken만 필요
+    1. 기존 코드를 미련없이 지우고 다시 코딩했더니 더 빨리 완료 됨
+1. 개선 중인 점
+    1. 로그 찍을 때
+        1. before : Log.d(TAG, "billing client is ready" + param)
+        1. after :  Log.d(TAG, "billing client is ready ${param}")
+        1. {} 괄호를 하는 이유는 param이 널일수도 있어서!
+1. 서버에서 언어가 en으로 설정된 마스터토픽 계정이, 한국 구글 플레이 계정으로 로그인했을때 exception으로 에러 고침
+1. Json변환 문제 있었음.
 
 ## TODO
 

@@ -233,6 +233,10 @@
 1. 생각나는데로 이것저것 넣기 x >> '한'가지 기능만 코딩하고 commit하기(너저분 x)
 1. 주석은 없애자 >> 나중에말고 지금해야함.
 
+## 2021년 7얼 7일
+
+1. File Mime type[Link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

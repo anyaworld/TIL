@@ -237,6 +237,10 @@
 
 1. File Mime type[Link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
 
+## 앱 이름 바꾸기 Ios
+
+1. IOS app change display name[Link](https://programmingwithswift.com/change-ios-app-name-with-xcode/)
+
 ## TODO
 
 1. 도서구매 취소시 window.close처리 [Link](<https://holika.tistory.com/m/entry/내-맘대로-정리한-안드로이드-WebView에서-windowclose-이벤트-받아서-창-닫기>)

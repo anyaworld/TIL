@@ -98,3 +98,9 @@ git log --oneline --grep <검색어>
 ```bash
 git show <특정 해시 값>
 ```
+
+## git stash 내용 확인하기
+
+```bash
+git stash show -p stash@{<index>} 
+```

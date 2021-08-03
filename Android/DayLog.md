@@ -237,6 +237,16 @@
 
 1. File Mime type[Link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
 
+## 2021년 7월 13일??
+
+1. simple Key board[Link](https://github.com/rkkr/simple-keyboard)
+2. keyboard 설명[Link](https://enumclass.tistory.com/3)
+
+## 2021년 8월 3일
+
+1. git stash show -p stash@{0} >> git stash 내용 확인하기(merge 하지 않고)
+2. IOS WKWebView debugging 환경 세팅하기 [Link](https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html)
+
 ## 앱 이름 바꾸기 Ios
 
 1. IOS app change display name[Link](https://programmingwithswift.com/change-ios-app-name-with-xcode/)

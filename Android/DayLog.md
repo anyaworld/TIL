@@ -247,6 +247,25 @@
 1. git stash show -p stash@{0} >> git stash 내용 확인하기(merge 하지 않고)
 2. IOS WKWebView debugging 환경 세팅하기 [Link](https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html)
 
+## 2021년 8월 4일
+
+1. 밀도 타켓팅[Link](https://developer.android.com/guide/webapps/targeting?hl=ko)
+2. 참고[Link](https://duckssi.tistory.com/11)
+
+```bash
+//meta태그의 viewport사용 가능
+webview.getSettings().setUseWideViewPort(true);
+webview.getSettings().setloadwithoverviewmode(true);
+```
+
+## 2021년 8월 9일
+
+1. 빌드 파일에서 서명 정보 삭제 [Link](https://developer.android.com/studio/publish/app-signing)
+
+## 2021년 8월 10일
+
+1. mediaPlaybackRequiresUserGesture webview에서 영상 자동 플레이 옵션
+
 ## 앱 이름 바꾸기 Ios
 
 1. IOS app change display name[Link](https://programmingwithswift.com/change-ios-app-name-with-xcode/)

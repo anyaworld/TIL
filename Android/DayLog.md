@@ -265,6 +265,46 @@ webview.getSettings().setloadwithoverviewmode(true);
 ## 2021년 8월 10일
 
 1. mediaPlaybackRequiresUserGesture webview에서 영상 자동 플레이 옵션
+1. com.nhn.android site:https://apptopia.com 검색함 (앱 store id 조사)
+1. ios android id [Link](https://stackoverflow.com/questions/1692320/when-to-use-an-explicit-app-id-versus-a-wildcard-id)
+
+## soft key board issue 검색 결과
+
+1. [Link](https://stackoverflow.com/questions/7417123/android-how-to-adjust-layout-in-full-screen-mode-when-softkeyboard-is-visible)
+
+2. [Link](https://stackoverflow.com/questions/4312319/how-to-capture-the-virtual-keyboard-show-hide-event-in-android)
+
+3. [Link](https://www.youtube.com/watch?v=FOibPikr0qc)
+
+4. [Link](https://gist.github.com/grennis/2e3cd5f7a9238c59861015ce0a7c5584)
+
+5. [Link](https://stackoverflow.com/questions/4200259/tapping-form-field-in-webview-does-not-show-soft-keyboard)
+
+## download files issue(about mime type)
+
+1. [Link](https://stackoverflow.com/questions/29211263/how-to-identify-doc-docx-pdf-xls-and-xlsx-based-on-file-header)
+
+2. [Link](https://stackoverflow.com/questions/18299806/how-to-check-file-mime-type-with-javascript-before-upload)
+
+3. Mime detective[Link](https://github.com/Muraad/Mime-Detective/blob/master/MimeDetective/MimeTypes.cs)
+
+4. File Syniture[Link](https://stackoverflow.com/questions/58510/using-net-how-can-you-find-the-mime-type-of-a-file-based-on-the-file-signature)
+
+5. [Link](https://cocoacasts.com/what-are-app-ids-and-bundle-identifiers/)
+
+6. softkey 해결 방안1 [Link](https://www.youtube.com/watch?v=zIWkMFNS_E4)
+
+7. [Link](https://gist.github.com/leommoore/f9e57ba2aa4bf197ebc5)
+
+8. [Link](https://stackoverflow.com/questions/55796076/chrome-extension-getting-file-type-based-on-magic-number)
+
+## 기타
+
+1. Http 통신 로그 기록하기 [Link](https://simplifyprocess.tistory.com/3)
+
+## Billing Client
+
+1. [Link](https://github.com/android/play-billing-samples/issues/368)
 
 ## 앱 이름 바꾸기 Ios
 

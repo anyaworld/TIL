@@ -1,0 +1,15 @@
+# Day Log
+
+## 2021년 8월 10일
+
+1. mediaPlaybackRequiresUserGesture webview에서 영상 자동 플레이 옵션
+1. com.nhn.android site:https://apptopia.com 검색함 (앱 store id 조사)
+1. ios android id [Link](https://stackoverflow.com/questions/1692320/when-to-use-an-explicit-app-id-versus-a-wildcard-id)
+
+### 기타
+
+1. android demos [Link](https://github.com/google-developer-training/android-demos/tree/main/DonutTracker/NavigationUI)
+
+## 앱 이름 바꾸기 Ios
+
+1. IOS app change display name[Link](https://programmingwithswift.com/change-ios-app-name-with-xcode/)

@@ -262,12 +262,6 @@ webview.getSettings().setloadwithoverviewmode(true);
 
 1. 빌드 파일에서 서명 정보 삭제 [Link](https://developer.android.com/studio/publish/app-signing)
 
-## 2021년 8월 10일
-
-1. mediaPlaybackRequiresUserGesture webview에서 영상 자동 플레이 옵션
-1. com.nhn.android site:https://apptopia.com 검색함 (앱 store id 조사)
-1. ios android id [Link](https://stackoverflow.com/questions/1692320/when-to-use-an-explicit-app-id-versus-a-wildcard-id)
-
 ## soft key board issue 검색 결과
 
 1. [Link](https://stackoverflow.com/questions/7417123/android-how-to-adjust-layout-in-full-screen-mode-when-softkeyboard-is-visible)
@@ -300,15 +294,15 @@ webview.getSettings().setloadwithoverviewmode(true);
 
 ## 기타
 
-1. Http 통신 로그 기록하기 [Link](https://simplifyprocess.tistory.com/3)
+1. Http 통신 로그 기록하기 OKHTTP logging [Link](https://simplifyprocess.tistory.com/3)
+1. android advanced Webview[Link](https://github.com/delight-im/Android-AdvancedWebView/blob/master/Source/library/src/main/java/im/delight/android/webview/AdvancedWebView.java)
+
+1. 구글 앱 결제[Link](https://jizard.tistory.com/263)
+1. SheredPreference 쉽게 쓰기[Link](https://medium.com/@joongwon/android-kotlin으로-sharedpreferences를-편하게-써보자-77834af39b7e)
 
 ## Billing Client
 
 1. [Link](https://github.com/android/play-billing-samples/issues/368)
-
-## 앱 이름 바꾸기 Ios
-
-1. IOS app change display name[Link](https://programmingwithswift.com/change-ios-app-name-with-xcode/)
 
 ## TODO
 

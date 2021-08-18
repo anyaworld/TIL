@@ -13,3 +13,5 @@
 ## 앱 이름 바꾸기 Ios
 
 1. IOS app change display name[Link](https://programmingwithswift.com/change-ios-app-name-with-xcode/)
+
+내가 보려는 자료[Link](https://brunch.co.kr/@chulhochoiucj0/23)

@@ -21,3 +21,7 @@
 ## 8월 18일
 
 1. github 이 여러차레 공지한 대로 오늘부터 default access 방식을 personal access token으로 바꾸었다.
+
+## 8월 19일
+
+1. add logging templete in kotlin [Link](https://gist.github.com/paolop/0bd59e49b33d18d6089fb1bf5488e212)

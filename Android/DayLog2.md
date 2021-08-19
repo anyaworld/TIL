@@ -24,4 +24,6 @@
 
 ## 8월 19일
 
-1. add logging templete in kotlin [Link](https://gist.github.com/paolop/0bd59e49b33d18d6089fb1bf5488e212)
+1. android - add logging templete in kotlin [Link](https://gist.github.com/paolop/0bd59e49b33d18d6089fb1bf5488e212)
+
+1. ios - change package name (Info.plist 경로 바꾸는것 참조함)[Link](https://stackoverflow.com/questions/52435202/build-input-file-cannot-be-found-swift-4-2-xcode-10-0)

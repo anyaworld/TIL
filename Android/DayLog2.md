@@ -27,3 +27,16 @@
 1. android - add logging templete in kotlin [Link](https://gist.github.com/paolop/0bd59e49b33d18d6089fb1bf5488e212)
 
 1. ios - change package name (Info.plist 경로 바꾸는것 참조함)[Link](https://stackoverflow.com/questions/52435202/build-input-file-cannot-be-found-swift-4-2-xcode-10-0)
+
+## 8월 24일
+
+1. Log cat did not show anything [From](https://stackoverflow.com/questions/9529628/why-logcat-is-not-showing-anything)
+
+* Step 1. Closing the logcat window
+
+* Step 2. Running the following in command prompt:
+
+    ```bash
+    adb kill-server
+    adb start-server
+    ```

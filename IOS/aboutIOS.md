@@ -18,3 +18,7 @@
     1. 참고2 [Link](https://gist.github.com/novemberfiveco-gists/798e3cbb80b0d1a9f75d6ddfd0f87071)
     1. 참고3 [Link](https://github.com/luowenxing/PWKWebView/blob/master/PWKWebView.swift)
     1. 참고4 [Link](https://stackoverflow.com/questions/44576468/when-redirect-with-code-302-wkwebview-cannot-set-cookie)
+
+1. Test Flight
+    1. [Link](https://testflight.apple.com/)
+    1. [Link](https://developer.apple.com/kr/testflight/)

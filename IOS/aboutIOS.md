@@ -23,3 +23,5 @@
 
     1. [Link](https://testflight.apple.com/)
     1. [Link](https://developer.apple.com/kr/testflight/)
+    1. [Link](https://0urtrees.tistory.com/60)
+    1. [Link](https://0urtrees.tistory.com/59)

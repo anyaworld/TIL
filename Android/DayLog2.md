@@ -40,6 +40,7 @@
     adb kill-server
     adb start-server
     ```
+
 ## 8월 25일
 
 1. ScreenShot Spec[Link](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/icons_and_splash_screens.html#IconsandSplashScreens-Androidsplashscreenconsiderations)

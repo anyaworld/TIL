@@ -44,3 +44,14 @@
 ## 8월 25일
 
 1. ScreenShot Spec[Link](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/icons_and_splash_screens.html#IconsandSplashScreens-Androidsplashscreenconsiderations)
+
+## 8월 26일
+
+1. sample-9-patch-splash-screen 안드로이드 스플래시 이미지 가이드 [Link](https://github.com/gomobile/sample-9-patch-splash-screen/blob/master/docs/README.md)
+
+    1. 참고 스플레시 [link](https://velog.io/@pish11010/Android-Splash-Screen-%EA%B5%AC%ED%98%84)
+final Dialog dialog = new Dialog(MainActivity.this); dialog.setContentView(newWebView); dialog.show();
+
+## 9월 16일
+
+1. 아이콘 모음[Link](https://login.quickbase.com/db/bcgnn27bx?a=q&qid=10&ifv=20)

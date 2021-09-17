@@ -1,4 +1,4 @@
-# Today I Learned 
+# Today I Learned
 
 ## Categories
 
@@ -13,15 +13,15 @@
 
 ## Android
 
-* About Permissions [Link](/Android/about_runtime_permission.md)
-* How to release an ap on Google Play Store [Link](/Android/how_to_release_an_app_on_google_play_store.md)
-* Sending token to server [Link](/Android/sending_token_to_server.md)
-* Is Issue or Is Not Issue [Link](/Android/IsIssueOrIsNotIssue.md)
+* Day Log [Link](Android/DayLog.md)
+* References [Link](Android/References.md)
+* Favorites
+    1. Favorite 1[Link](Android/Favorite_1.md)
+    1. Favorite 2[Link](Android/Favorite_2.md)
 * __To do FCM push__ :heart:[Link](/Android/TodoFCMPush.md)
 * About CustomWebview [Link](/Android/AboutCustomWebView.md)
-* How To Decompile Apks [Link](/Android/howtoDecompileApps.md)
-* Social Login - WeChat [Link](/Android/SocialLogin.md)
-* How to check usb connection [Link](/Android/HowToCheckUSBConnection.md)
+* Social Login
+    1. WeChat [Link](/Android/SocialLogin.md)
 
 ## IOS
 
@@ -51,8 +51,8 @@
 
 ## SmallTalk
 
-* Review [Link](Small_Talk/review.md)
-* 여기서 수영해요![Link](/Small_Talk/Swimming_in_endless_pool.md)
+* Review [Link](/Small_Talk/review.md)
+* 여기서 수영해요! [Link](/Small_Talk/Swimming.md)
 * 이 가방을 매면 뒷모습만 봐도 개발자임을 알 수 있습니다. [Link](https://www.seoulstore.com/products/1329021/detail)
 * How to keep TIL [Link](/Small_Talk/HowtokeepTIL.md)
 
@@ -62,6 +62,7 @@
 * Github 프로필 사진 등록 [Link](/etc/big_head.md)
 * Terms [Link](/etc/Terms.md)
 * Local tunnel [Link](/etc/alternative_ngrok.md)
+* How to communicate To Others [Link](/etc/HowToCommunicateToOthers.md)
 
 ## Deleted
 

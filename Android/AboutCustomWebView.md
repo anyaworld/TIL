@@ -32,8 +32,16 @@
 
 ## about App Link
 
-1.webview에서 url을 띄우기 위해
-<https://exmple.com/.well-known/assetlinks.json>
-경로에 assetlinks.json 파일을 추가해야 하고
-이 파일을 구글에서 확인할 수 있도록 Rebots.txt 파일로 설정해야 한다.
-[Link1](https://developer.android.com/training/app-links/verify-site-associations#publish-json)[Link2](https://developer.android.com/training/app-links/verify-site-associations?hl=ko)
+1. webview에서 url을 띄우기 위해
+1. <https://exmple.com/.well-known/assetlinks.json> 경로에 assetlinks.json 파일을 추가해야 하고
+1. assetlinks.json 파일을 구글에서 확인할 수 있도록 Rebots.txt 파일로 설정해야 한다.
+    * 참고[Link](https://developer.android.com/training/app-links/verify-site-associations#publish-json)
+    * 참고[Link](https://developer.android.com/training/app-links/verify-site-associations?hl=ko)
+
+## SHA-1 쉽게 얻기
+
+1. SHA-1키 쉽게 얻기 Gradle 뷰 -> Tasks -> android -> signingReport[Link](https://parkho79.tistory.com/97)
+
+## etc
+
+* 로그인 세션 유지시키기[Link](https://dailylonnie0125.tistory.com/11)

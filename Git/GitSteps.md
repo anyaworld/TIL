@@ -98,3 +98,19 @@ git log --oneline --grep <검색어>
 ```bash
 git show <특정 해시 값>
 ```
+
+## git stash 내용 확인하기
+
+```bash
+git stash show -p stash@{<index>} 
+```
+
+## access token 추가하기
+
+1. github 이 default access 방식을 personal access token으로 바꾸었다.(8월 18일)
+    1. 새 토큰을 생성하고 [Link](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+    1. 기존 repository에 remote 를 추가한다.
+
+```bash
+        git remote add origin_r https://your_token@github.com/anyaworld/example.git
+```
